@@ -3,73 +3,218 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>XAUUSD Mentorship</title>
+<title>XAUUSD Trading Mentorship</title>
+
 <style>
-body{font-family:Arial,Helvetica,sans-serif;background:#0f172a;color:#e5e7eb;margin:0}
-.container{max-width:800px;margin:auto;padding:40px 20px}
-h1{font-size:32px;margin-bottom:10px}
-h2{margin-top:40px}
-p{line-height:1.6}
-.btn{display:inline-block;margin-top:20px;padding:15px 25px;background:#22c55e;color:#000;text-decoration:none;font-weight:bold;border-radius:6px}
-.box{background:#020617;padding:20px;border-radius:8px;margin-top:20px}
-ul{padding-left:20px}
-li{margin-bottom:10px}
-.footer{margin-top:60px;font-size:13px;color:#94a3b8}
+:root{
+  --bg:#020617;
+  --card:#0f172a;
+  --accent:#22c55e;
+  --text:#e5e7eb;
+  --muted:#94a3b8;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family:Inter,Segoe UI,Arial,sans-serif;
+  background:linear-gradient(180deg,#020617,#020617);
+  color:var(--text);
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:60px 20px;
+}
+
+.hero{
+  display:grid;
+  grid-template-columns:1.2fr 1fr;
+  gap:40px;
+  align-items:center;
+}
+
+.badge{
+  display:inline-block;
+  background:#020617;
+  border:1px solid #1e293b;
+  padding:6px 12px;
+  border-radius:999px;
+  font-size:13px;
+  color:var(--muted);
+}
+
+h1{
+  font-size:44px;
+  line-height:1.1;
+  margin:20px 0;
+}
+
+p{
+  line-height:1.6;
+  color:var(--muted);
+}
+
+.btn{
+  display:inline-block;
+  margin-top:25px;
+  padding:16px 28px;
+  background:var(--accent);
+  color:#000;
+  text-decoration:none;
+  font-weight:700;
+  border-radius:10px;
+}
+
+.card{
+  background:var(--card);
+  border:1px solid #1e293b;
+  border-radius:16px;
+  padding:30px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:20px;
+  margin-top:30px;
+}
+
+.card h3{
+  margin-top:0;
+}
+
+.section{
+  margin-top:100px;
+}
+
+.section h2{
+  font-size:32px;
+  margin-bottom:10px;
+}
+
+ul{
+  padding-left:18px;
+}
+
+li{
+  margin-bottom:10px;
+}
+
+.image-box img{
+  width:100%;
+  border-radius:12px;
+  border:1px solid #1e293b;
+}
+
+.footer{
+  margin-top:120px;
+  padding-top:40px;
+  border-top:1px solid #1e293b;
+  font-size:13px;
+  color:var(--muted);
+}
+
+@media(max-width:900px){
+  .hero{grid-template-columns:1fr}
+  h1{font-size:36px}
+}
 </style>
 </head>
+
 <body>
+
 <div class="container">
 
-<h1>Trade XAUUSD With Precision — Not Guesswork</h1>
-<p>Mentorship, proprietary indicator, structured tuition, and a prop-firm passing system built specifically for Gold (XAUUSD).</p>
+  <!-- HERO -->
+  <div class="hero">
+    <div>
+      <span class="badge">XAUUSD • Prop Firm Focused</span>
+      <h1>Trade Gold With Precision,<br>Not Guesswork</h1>
+      <p>
+        A complete XAUUSD trading system combining mentorship, a proprietary indicator,
+        structured tuition, and a prop-firm passing framework.
+      </p>
+      <a class="btn" href="https://wa.me/234XXXXXXXXXX">Apply for Mentorship</a>
+    </div>
 
-<a class="btn" href="https://wa.me/234XXXXXXXXXX">Apply for Mentorship</a>
+    <div class="card image-box">
+      <img src="images/chart-proof.png" alt="XAUUSD chart proof">
+    </div>
+  </div>
 
-<h2>What You Get</h2>
-<div class="box">
-<ul>
-<li>1-on-1 Mentorship (entries, exits, risk)</li>
-<li>Exclusive XAUUSD Indicator</li>
-<li>Step-by-step Trading Tuition</li>
-<li>Prop Firm Passing Framework</li>
-<li>Selective Account Management</li>
-</ul>
+  <!-- OFFER -->
+  <div class="section">
+    <h2>What You Get</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Mentorship</h3>
+        <p>Sniper entries, exits, risk control, psychology.</p>
+      </div>
+      <div class="card">
+        <h3>Proprietary Indicator</h3>
+        <p>Built specifically for XAUUSD timing and confirmation.</p>
+      </div>
+      <div class="card">
+        <h3>Structured Tuition</h3>
+        <p>Beginner to advanced, rule-based execution.</p>
+      </div>
+      <div class="card">
+        <h3>Prop Firm System</h3>
+        <p>Rules, drawdown control, scaling framework.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESULTS -->
+  <div class="section">
+    <h2>Proof & Results</h2>
+    <div class="grid">
+      <div class="card image-box">
+        <img src="images/result1.png" alt="Result 1">
+      </div>
+      <div class="card image-box">
+        <img src="images/result2.png" alt="Result 2">
+      </div>
+    </div>
+  </div>
+
+  <!-- FILTER -->
+  <div class="section">
+    <h2>This Is For You If</h2>
+    <div class="grid">
+      <div class="card">
+        <ul>
+          <li>Serious about trading</li>
+          <li>Focused on XAUUSD</li>
+          <li>Want to pass prop firms</li>
+        </ul>
+      </div>
+      <div class="card">
+        <ul>
+          <li>Not looking for signals</li>
+          <li>Not lazy</li>
+          <li>Not chasing guarantees</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="section card" style="text-align:center">
+    <h2>Apply for Mentorship</h2>
+    <p>Limited slots. I work closely with selected traders only.</p>
+    <a class="btn" href="https://wa.me/234XXXXXXXXXX">Apply Now</a>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    Disclaimer: Trading involves risk. Results vary. No guarantees.
+  </div>
+
 </div>
 
-<h2>Who This Is For</h2>
-<div class="box">
-<ul>
-<li>Serious traders only</li>
-<li>Prop firm candidates</li>
-<li>XAUUSD focused traders</li>
-</ul>
-</div>
-
-<h2>Who This Is NOT For</h2>
-<div class="box">
-<ul>
-<li>Signal hunters</li>
-<li>Lazy traders</li>
-<li>Anyone looking for guarantees</li>
-</ul>
-</div>
-
-<h2>How It Works</h2>
-<div class="box">
-<ol>
-<li>Apply via WhatsApp</li>
-<li>Short screening</li>
-<li>Onboarding + rules</li>
-<li>Trade, scale, pass prop firms</li>
-</ol>
-</div>
-
-<a class="btn" href="https://wa.me/234XXXXXXXXXX">Apply Now</a>
-
-<div class="footer">
-<p>Disclaimer: Trading involves risk. No guaranteed profits.</p>
-</div>
-
-</div>
 </body>
 </html>
